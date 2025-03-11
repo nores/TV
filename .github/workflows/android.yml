@@ -3,7 +3,7 @@ name: Build FongMi/TV
 on:
   push:
     branches:
-      - realse  # 当 main 分支有推送时触发编译
+      - release  # 当 main 分支有推送时触发编译
 
 jobs:
   build:
